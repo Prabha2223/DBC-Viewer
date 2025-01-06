@@ -1,0 +1,48 @@
+.signal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #1a1f2e;
+  color: #ffffff;
+}
+
+.signal-header-cell {
+  padding: 8px 12px;
+  text-align: left;
+  background: #1a1f2e;
+  border-bottom: 1px solid #2d3748;
+  font-weight: 500;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.signal-row {
+  border-bottom: 1px solid #2d3748;
+}
+
+.signal-row:hover {
+  background: #2d3748;
+}
+
+.signal-cell {
+  padding: 8px 12px;
+  border-bottom: 1px solid #2d3748;
+  color: #cbd5e0;
+}
+
+.signal-cell.numeric {
+  text-align: right;
+  font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+.values-cell {
+  color: #4299e1;
+  font-size: 11px;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
